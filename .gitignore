@@ -1,0 +1,23 @@
+# Ignore the .bundle directory
+.bundle/
+
+# Ignore log files
+/log/*.log
+*.log
+
+# Ignore compiled files
+/bin/*
+*.gem
+
+# Ignore config files that contain sensitive data
+/config/secrets.yml
+
+# Ignore system files
+*.swp
+.DS_Store
+
+# Ignore other directories
+.cache/
+.replit
+.upm/
+
